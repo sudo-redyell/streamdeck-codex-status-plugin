@@ -1,0 +1,22 @@
+{
+  "name": "streamdeck-codex-status-plugin",
+  "version": "1.1.1",
+  "private": true,
+  "description": "OpenDeck plugin for local Codex task status and token-cost monitoring on Linux.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "package": "npm run build && node scripts/package.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "ws": "8.21.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "Actions": [
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/status",
+      "Name": "1. Codex Status",
+      "States": [{ "Image": "icons/status" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Show local Codex task state and session count",
+      "UUID": "io.github.streamdeck-codex-status.monitor"
+    },
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/status-dark",
+      "Name": "1. Codex Status · Dark",
+      "States": [{ "Image": "icons/status-dark" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Show local Codex task state and session count in dark mode",
+      "UUID": "io.github.streamdeck-codex-status.monitor-dark"
+    },
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/usage",
+      "Name": "2. Token Summary",
+      "States": [{ "Image": "icons/usage" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle monthly and today's total token cost",
+      "UUID": "io.github.streamdeck-codex-status.usage"
+    },
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/usage-dark",
+      "Name": "2. Token Summary · Dark",
+      "States": [{ "Image": "icons/usage-dark" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Toggle monthly and today's total token cost in dark mode",
+      "UUID": "io.github.streamdeck-codex-status.usage-dark"
+    },
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/session",
+      "Name": "3. Session Usage",
+      "States": [{ "Image": "icons/session" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Cycle through today's per-session token cost",
+      "UUID": "io.github.streamdeck-codex-status.sessions"
+    },
+    {
+      "Controllers": ["Keypad"],
+      "DisableAutomaticStates": true,
+      "Icon": "icons/session-dark",
+      "Name": "3. Session Usage · Dark",
+      "States": [{ "Image": "icons/session-dark" }],
+      "SupportedInMultiActions": false,
+      "Tooltip": "Cycle through today's per-session token cost in dark mode",
+      "UUID": "io.github.streamdeck-codex-status.sessions-dark"
+    }
+  ],
+  "Author": "streamdeck-codex-status-plugin contributors",
+  "Category": "Codex",
+  "CodePath": "index.js",
+  "Description": "Monitors local Codex task state, token usage, and estimated Azure GPT-5.6 cost.",
+  "Icon": "icons/status",
+  "Name": "Codex Status & Usage",
+  "OS": [{ "MinimumVersion": "1.0", "Platform": "linux" }],
+  "Version": "1.1.1"
+}

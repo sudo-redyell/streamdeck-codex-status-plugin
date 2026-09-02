@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144">
+  <rect width="144" height="144" rx="18" fill="#17181C"/>
+  <rect x="2" y="2" width="140" height="140" rx="17" fill="#24262B"/>
+  <rect x="9" y="9" width="126" height="30" rx="15" fill="#1CB0F6"/>
+  <text x="72" y="29" fill="#FFFFFF" font-family="sans-serif" font-size="13" font-weight="900" text-anchor="middle">TOKEN SUMMARY</text>
+  <text x="72" y="82" fill="#F7F7F7" font-family="sans-serif" font-size="32" font-weight="900" text-anchor="middle">3.3M</text>
+  <rect x="12" y="96" width="120" height="29" rx="14.5" fill="#34373D"/>
+  <text x="72" y="116" fill="#1CB0F6" font-family="sans-serif" font-size="16" font-weight="900" text-anchor="middle">₩18,420</text>
+</svg>
